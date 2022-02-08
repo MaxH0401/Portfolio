@@ -253,6 +253,49 @@
     text-align: center;
   }
 
+  .messageBox{
+      width: 100%;
+      height: 30vh;
+      background-color: #000000;
+      color: #d7d7d7;
+  }
+
+  .messageTxt{
+    height: 30vh;
+    padding: 10px;
+  }
+
+  .messageTxt h4{
+    color: #cc0000;
+    font-weight: 900;
+  }
+
+  .messageBtn{
+    background-color: #cc0000;
+    color: #d7d7d7;
+    font-weight: 900;
+    border: none;
+    border-radius: 8px;
+    display: inline-block;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    margin: 0rem 0.5rem 0.5rem 0rem;
+  }
+
+  .messageBtn:hover{
+    background-color: #910101;
+    color: #d7d7d7;
+  }
+
+  .messageBtn:active{
+    background-color: #d7d7d7;
+    color: #910101;
+  }
+
+  .messageHover:hover{
+      background-color: #91010144;
+  }
+
         @media screen and (max-width:1200px) {
             .profileName {
                 text-align: center;
